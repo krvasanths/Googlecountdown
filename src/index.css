@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #050505;
+  --fg: #ffffff;
+  --accent: #ff0055;
+  --secondary: #00ffcc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: 'Bungee', sans-serif;
+  overflow: hidden;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+canvas {
+  display: block;
+}
